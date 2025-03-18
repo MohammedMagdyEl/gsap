@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Grey+Qo&family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Righteous&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "EB Garamond", serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.container {
+    width: 100%;
+    height: 85vh;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    height: 10vh;
+    padding: 0vw 10vw;
+    z-index: 99;
+
+}
+
+header .logo {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+
+header .nav ul {
+    display: flex;
+    gap: 20px;
+
+
+
+}
+
+header .nav ul li a {
+    font-size: 1.5vw;
+    color: #fff;
+}
+
+header .search {
+    color: #fff;
+
+}
+
+.main {
+    /* position: relative; */
+    background-image: url("./Assets/bg.png");
+    object-fit: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.main h1 {
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+    font-size: 200px;
+}
+
+.main #choclate {
+    width: 25%;
+    position: absolute;
+    top: 8%;
+    left: 42%;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+}
+
+.main #can {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+    width: 35%;
+    z-index: 2;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+
+
+}
+
+.main #choclate2 {
+    position: absolute;
+
+    width: 15%;
+
+    left: 60%;
+    top: 80%;
+    translate: -50% -50%;
+    z-index: 3;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+
+
+}
+
+.main #almod {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    width: 7%;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+
+}
+
+.main #almod2 {
+    position: absolute;
+    top: 70%;
+    left: 80%;
+    transform: rotate(60deg);
+    width: 10%;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+    -webkit-transform: rotate(60deg);
+    -moz-transform: rotate(60deg);
+    -ms-transform: rotate(60deg);
+    -o-transform: rotate(60deg);
+}
+
+.second {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    background-image: linear-gradient(90deg, #a9774e, #864831, #402014);
+
+
+}
+
+
+.second .right,.second .left {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5vh;
+    width: 50%;
+    height: 100%;
+
+}
+
+.second .right img {
+    margin-top: 45vh;
+    width: 90%;
+    transform: rotateX(50deg);
+
+}
+
+.second .left {
+    width: 60%;
+    color: #fff;
+    font-size: 1.25rem;
+
+
+}
+
+.second .left h2 {
+    font-size: 5vw;
+   
+
+}
+
+.second .left p {
+    font-size: 1vw;
+    width: 80%;
+    letter-spacing: 1px;
+    padding: 20px;
+    /* width: 100%; */
+
+}
+
+footer {
+    width: 100%;
+    height: 90vhvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer img {
+    width: 100%;
+    height: 100%;
+
+}
