@@ -96,7 +96,7 @@ header .search {
     position: absolute;
     left: 50%;
     top: 50%;
-    translate: -50% -50%;
+    transform: translate(-50%, -50%);
     width: 35%;
     z-index: 2;
     transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
