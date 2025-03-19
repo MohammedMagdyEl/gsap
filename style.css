@@ -111,7 +111,7 @@ header .search {
 
     left: 60%;
     top: 80%;
-    translate: -50% -50%;
+    transform: translate(-50%, -50%);
     z-index: 3;
     transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
 

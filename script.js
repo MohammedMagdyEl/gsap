@@ -17,7 +17,7 @@ tl.to("#choclate",{
 }, 'choclate')
 tl.to("#choclate2",{
     width: "25%",
-    top:"160%",
+    top:"150%",
     right: "10%",
     rotate: "-15deg"
 }, 'choclate')
@@ -50,12 +50,13 @@ tl2.to("#choclate",{
 }, 'can')
 tl2.to("#choclate2",{
     width:"15%",
-    left: "35%",
-    top: "270%"
+    left: "43%",
+    top: "280%",
+
 }, 'can')
 tl2.to("#can",{
     width:"30%",
-    top: "255%",
+    top: "263%",
     left: "50%",
     rotate: "0deg"
 }, 'can')
